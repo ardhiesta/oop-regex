@@ -18,8 +18,18 @@ public class Example1 {
 		System.out.println(s1+" matches "+regex2+": "+s1.matches(regex2));
 		System.out.println(s1+" matches "+regex3+": "+s1.matches(regex3));
 		
+		/*
+		
+		[a-z] : A single lowercase letter that is a, b, c, d, ... or z
+		J[a-z][a-z][a-z] : A string that consists of four characters. 
+		The first character is A.The second character is a, b, c, d, ... or z
+		J[a-z]* : Same as above, * means matches 0 or more occurrences of the preceding expression
+		
+		*/
+		
 		String s2 = "3";
 		String regex4 = "[0123]";
 		System.out.println(s2+" matches "+regex4+": "+s2.matches(regex4));
+		// [0123] : A single digit 0, 1, 2, or 3
 	}
 }
