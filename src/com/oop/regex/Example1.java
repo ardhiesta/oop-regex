@@ -22,7 +22,7 @@ public class Example1 {
 		
 		[a-z] : A single lowercase letter that is a, b, c, d, ... or z
 		J[a-z][a-z][a-z] : A string that consists of four characters. 
-		The first character is A.The second character is a, b, c, d, ... or z
+		The first character is J.The second character is a, b, c, d, ... or z
 		J[a-z]* : Same as above, * means matches 0 or more occurrences of the preceding expression
 		
 		*/
